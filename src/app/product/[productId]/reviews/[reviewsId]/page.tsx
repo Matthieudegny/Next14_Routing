@@ -16,6 +16,8 @@ export default function ProductDetail({
   //   throw new Error("Error loading review");
   // }
 
+  // j'utilse notfound de Next.js pour simuler une erreur 404
+  // et renvoyer une page 404 ou un fichier not-found.tsx dans le dossier
   if (parseInt(params.reviewId) > 1000) {
     notFound();
   }
